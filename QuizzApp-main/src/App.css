@@ -9,18 +9,19 @@ body {
 }
 
 .header {
-  height: 25vh;
-  background-color: black;
+  height: 15vh;
+  background-color: rgb(155, 219, 247);
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
 .header h1 {
-  font-size: 7rem;
+  font-size: 3rem;
   font-family: serif;
-  color: blue;
+  color: rgb(1, 14, 20);
   text-shadow: 0px 3px 5px #acacac;
+  align-items: center;
 }
 
 .header h1:hover {
@@ -38,7 +39,7 @@ body {
 }
 
 .details {
-  background-color: #0000b8;
+  background-color: #03574f;
   color: white;
   border-radius: 12px;
   min-height: 47vh;
