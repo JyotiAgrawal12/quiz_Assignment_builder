@@ -11,17 +11,17 @@ body {
 .header {
   height: 15vh;
   background-color: rgb(155, 219, 247);
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  
+  
 }
 
 .header h1 {
   font-size: 3rem;
-  font-family: serif;
+  font-family:sans-serif;
   color: rgb(1, 14, 20);
   text-shadow: 0px 3px 5px #acacac;
-  align-items: center;
+  
+  text-align:justify;
 }
 
 .header h1:hover {
@@ -39,8 +39,8 @@ body {
 }
 
 .details {
-  background-color: #03574f;
-  color: white;
+  background-color: #a9f0e9;
+  color: rgb(44, 33, 33);
   border-radius: 12px;
   min-height: 47vh;
   padding: 1.2rem;
@@ -50,7 +50,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  box-shadow: 2px 2px 4px #2b00d0;
+  box-shadow: 2px 2px 4px #0f0f10;
 }
 
 input {
@@ -79,12 +79,12 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: rgb(44, 41, 41);
   padding: 37px;
   height: 59vh;
   width: 30%;
   margin: 9px;
-  background-color: #0000b8;
+  background-color: #7fcde3;
   box-shadow: 2px 2px 9px grey;
   font-size: 4rem;
 }
